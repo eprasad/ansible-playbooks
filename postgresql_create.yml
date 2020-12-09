@@ -15,7 +15,7 @@
   #  - azure.azure_preview_modules
   vars:
     resource_group: "{{ resource_group_name }}"
-    location: westeurope
+    location: westcentralus
     postgresqlserver_name: postgresql{{ rpfx }}
     postgresqldb_name: sqldbtest
     admin_username: admxyz
